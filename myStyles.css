@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0 auto;
+    max-width: 100%;
+ }
+ 
+ body{
+     background-color: rgb(255, 239, 239);
+     display: block;
+     overflow-x: hidden;
+ }
+ 
+ /* Style for header */
+ header{
+     background-color: rgb(73, 19, 19);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px 30px;
+ }
+ 
+ h1{
+     color:rgb(255, 255, 255);
+ }
+ 
+ /* Style for navigation bar */
+ .navigation{
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+ }
+ 
+ .navigation li{
+     display: inline;
+     margin-right: 20px;
+ }
+ 
+ .navigation ul li:last-child{
+     margin-right: 0;
+ }
+ 
+ .navigation a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .navigation a:hover{
+     text-decoration: underline;
+ }
+ 
+ /* Style for 2nd div for image */
+ .image{
+     display: block;
+     text-align: center;
+ }
+
+
+ /* Style for table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border-bottom: 1px solid #bdbdbd;
+    text-align: center;
+}
+
+th{
+    height: 70px;
+    color: white;
+    background-color: rgb(73, 19, 19);
+}
+
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+
+/* Style for footer */
+section{
+    background-color: rgb(73, 19, 19);
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+}
+
+.l1{
+    list-style-type: none;
+}
+
+.l1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.l1 a:hover{
+    text-decoration: underline;
+}
+
+.conclusion{
+    color:white;
+    padding: 20px;
+}
+
+.impLinks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.copyright{
+    padding-top: 30px;
+    margin-left: 35px;
+}

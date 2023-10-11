@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+   padding: 0 auto;
+   max-width: 100%;
+}
+
+body{
+    background-color: rgb(255, 239, 239);
+    display: block;
+    overflow-x: hidden;
+}
+
+header{
+    background-color:rgb(73, 19, 19);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+h1{
+    color:rgb(255, 255, 255);
+}
+
+.navigation{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navigation li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li:last-child{
+    margin-right: 0;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+}
+
+.image{
+    display: block;
+    text-align: center;
+}
+
+img{
+    border-radius: 5px;
+    margin: 30px;
+    width: 650px;
+}
+
+main{
+    display: block;
+}
+
+h3{
+    color: rgb(73, 19, 19);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.formBox{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(192, 192, 192);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form{
+    margin: 0;
+    padding: 20px;
+}
+
+label, input{
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.introduction{
+    background-color: #ffffff;
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="email"]{
+    border-radius: 5px;
+    border: 1px solid rgb(182, 182, 182);
+    padding: 12px;
+}
+
+input[type="submit"]{
+    padding: 10px 12px;
+    color: white;
+    background-color: rgb(73, 19, 19);
+    border-radius: 5px;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.7;
+}
+
+section{
+    background-color:rgb(73, 19, 19);
+    color: white;
+    padding: 15px;
+}
+
+.l1{
+    list-style-type: none;
+}
+
+.l1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.l1 a:hover{
+    text-decoration: underline;
+}
+
+.conclusion{
+    color:white;
+    padding: 20px;
+}
+
+.impLinks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.copyright{
+    padding-top: 30px;
+    margin-left: 35px;
+}
+
