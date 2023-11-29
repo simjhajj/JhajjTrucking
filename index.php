@@ -10,7 +10,7 @@
 <body>
     <!-- Page header -->
     <? 
-        include("header.php");
+        include("templates/header.php");
     ?>
     <!-- Page Main -->
     <main>
@@ -71,7 +71,7 @@
     </main>
     <!-- Page Footer -->
     <?php
-       include("footer.php");
+       include("templates/footer.php");
     ?>
 </body>
 </html>
